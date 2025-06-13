@@ -44,13 +44,13 @@ class KeyloggerThread(QThread):
 class KeyloggerApp(QWidget):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("🔐 PyQt5 Keylogger - Educational Only")
+        self.setWindowTitle("🔐 Keylogger")
         self.setGeometry(300, 200, 500, 400)
         self.setStyleSheet("background-color: #1e1e1e; color: #e0e0e0; font-family: Segoe UI;")
 
         self.layout = QVBoxLayout()
 
-        self.title = QLabel("🛡️ Ethical Keylogger GUI")
+        self.title = QLabel("🛡️  Keylogger")
         self.title.setStyleSheet("font-size: 18pt; font-weight: bold; color: #00ff90;")
         self.title.setAlignment(Qt.AlignCenter)
         self.layout.addWidget(self.title)
